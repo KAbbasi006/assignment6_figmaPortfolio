@@ -15,7 +15,7 @@ const AboutSection = () => {
           <h2 id="about" className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-xl mb-6">FrontEnd Developer</p>
           <p className="text-lg leading-relaxed mb-6">
-          I am a passionate web developer with a strong foundation in frontend development. I completed my training in frontend development through the BanoQabil 2.0 program, where I gained expertise in HTML, CSS, and JavaScript. Currently, I am advancing my skills by pursuing a course  in "Certified Cloud Applied Generative AI Engineering" from the Governor House.
+          I am a passionate web developer with a strong foundation in frontend development. I completed my training in frontend development through the BanoQabil 2.0 program, where I gained expertise in HTML, CSS, and JavaScript. Currently, I am advancing my skills by pursuing a course  in Certified Cloud Applied Generative AI Engineering from the Governor House.
           </p>
           
           {/* Download CV Button */}

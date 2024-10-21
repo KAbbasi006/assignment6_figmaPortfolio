@@ -1,3 +1,4 @@
+import Image from "next/image";
 const portfolioData = [
     { name: "Todo List App", category: " Command: npx k9_todo_list", imageSrc: "/todo.jpg" },
     { name: "Number Guessing", category: "Command: npx k9_cli_number_guessing_game", imageSrc: "/number_guessing_game.jpg " },
@@ -25,7 +26,8 @@ const portfolioData = [
             {portfolioData.map((project, index) => (
               <div key={index} className="bg-gray-900 rounded-lg overflow-hidden shadow-lg">
                 {/* Project Image */}
-                <img src={project.imageSrc} alt={project.name} className="w-full h-50" />
+                <Image src={project.imageSrc} alt={project.name}   width={500}
+  height={300} className="w-full h-50" />
   
                 {/* Project Info */}
                 <div className="p-4">
