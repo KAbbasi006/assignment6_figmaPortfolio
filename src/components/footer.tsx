@@ -7,18 +7,18 @@ const Footer = () => {
         <h2 className="text-xl font-bold mb-4 text-orange-500">Komal Abbasi</h2>
         
         <ul className="flex justify-center space-x-8 mb-6">
-          <li><a href="#">Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#about">About me</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contact">Contact me</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/skills">Skills</a></li>
+          <li><a href="/about">About me</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/contact">Contact me</a></li>
         </ul>
         
         <div className="flex justify-center space-x-6 mb-6">
-          <a href="#"><FaLinkedin className="text-2xl"/></a>
-          <a href="#"><FaGithub className="text-2xl"/></a>
-          <a href="#"><FaBehance className="text-2xl"/></a>
-          <a href="#"><FaGlobe className="text-2xl"/></a>
+          <a href="https://www.linkedin.com/in/komal-abbasi-2121b7275/" target="_blank"><FaLinkedin className="text-2xl"/></a>
+          <a href="https://github.com/KAbbasi006" target="_blank"><FaGithub className="text-2xl"/></a>
+          <a href="https://www.behance.net/KAkomalabbasi" target="_blank"><FaBehance className="text-2xl"/></a>
+          <a href="https://assignment5-portfolio-website-odq36tdk8-komal-abbasis-projects.vercel.app" target="_blank"><FaGlobe className="text-2xl"/></a>
         </div>
         
         <div className="flex justify-center space-x-4 mb-4 text-gray-400">

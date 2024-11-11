@@ -25,15 +25,15 @@ const Hero: React.FC<HeroProps> = ({ experiences, projects, clients }) => {
         </div><br />
         {/* Social Media Icons */}
         <div className='flex space-x-4 my-6'>
-          <a href="" className='border-2 p-4 text-2xl rounded-full' >< BsLinkedin /></a>
-          <a href="" className='border-2 p-4 text-2xl rounded-full' ><FaGithub /></a>
-          <a href="" className='border-2 p-4 text-2xl rounded-full' ><FaBehance /></a>
-          <a href="" className='border-2 p-4 text-2xl rounded-full' ><FaGlobe /></a>
+          <a href="https://www.linkedin.com/in/komal-abbasi-2121b7275/" target="_blank" className='border-2 p-4 text-2xl rounded-full' >< BsLinkedin /></a>
+          <a href="https://github.com/KAbbasi006" target="_blank" className='border-2 p-4 text-2xl rounded-full' ><FaGithub /></a>
+          <a href="https://www.behance.net/KAkomalabbasi" target="_blank" className='border-2 p-4 text-2xl rounded-full' ><FaBehance /></a>
+          <a href="https://assignment5-portfolio-website-odq36tdk8-komal-abbasis-projects.vercel.app" target="_blank" className='border-2 p-4 text-2xl rounded-full' ><FaGlobe /></a>
         </div><br />
         {/* Hire me button , Download CV button*/}
         <div>
           <button className=' px-4 my- mr-5 border-2 bg-orange-500 hover:bg-orange-400 py-2 rounded-lg font-semibold '>Hire me</button>
-          <button onClick={() => window.open('/cv.pdf', '_blank')} className=' px-4 my- mr-5 border-2 hover:bg-orange-400 py-2 rounded-lg font-semibold'>Download CV</button>
+          <button onClick={() => window.open('/Resume.png', '_blank')} className=' px-4 my- mr-5 border-2 hover:bg-orange-400 py-2 rounded-lg font-semibold'>View Resume</button>
         </div><br /><br />
         {/* Experience, Project done, happy clients */}
         <div className='flex space-x-8 mt-6'>

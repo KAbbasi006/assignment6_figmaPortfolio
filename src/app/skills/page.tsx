@@ -13,9 +13,11 @@ const Skills = () => {
     return (
         <div className="bg-black text-white py-16">
             <div className="text-center">
-                <h1 id="skillsx" className=" text-4xl font-bold my-8 pb-6">Skills</h1>
+                <h1 id="skills" className=" text-4xl font-bold my-8 pb-6">Skills</h1>
             </div>
-
+            <div className="flex justify-center mb-8 space-x-4">
+          <p className="px-28">With a strong foundation in HTML, CSS, and JavaScript, I bring designs to life with clean, efficient code and an eye for responsive layouts. Skilled in Tailwind CSS for rapid styling and TypeScript for added code reliability, I’m currently expanding my expertise in Next.js to build dynamic, high-performance web applications.</p>
+        </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8">
                 {skillsData.map((skill, index) => (
                 <div key={index} className=" bg-gray-900 rounded-lg p-12 text-center">
@@ -38,4 +40,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Skills;

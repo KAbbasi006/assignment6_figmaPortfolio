@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutSection = () => {
   return (
-    <section className="bg-black text-white py-16 ">
+    <section className="bg-black  text-white py-16 ">
       <div className="container mx-auto px-6 lg:px-8 grid lg:grid-cols-2 gap-12">
         
         {/* Left Side - Image */}
@@ -19,13 +19,11 @@ const AboutSection = () => {
           </p>
           
           {/* Download CV Button */}
-          <a href="/cv.pdf" download className="inline-block bg-orange-500 text-white py-2 px-4 rounded-md text-lg hover:bg-orange-600">
-            Download CV
+          <a href="/Resume.png" target="_blank " className="inline-block bg-orange-500 text-white py-2 px-4 rounded-md text-lg hover:bg-orange-600">
+           View Resume
           </a>
         </div>
       </div>
-
-      {/* Skills Section */}
      
     </section>
   );
