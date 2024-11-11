@@ -30,8 +30,8 @@ function Header() {
         <nav className="md:hidden md:order-1 bg-black text-white p-4">
           <ul className="flex flex-col space-y-4">
             <li><a href="/">Home</a></li>
-            <li><a href="/skills"></a>Skills</li>
-            <li><a href="/about"></a>About</li>
+            <li><a href="/skills">Skills</a></li>
+            <li><a href="/about">About</a></li>
             <li><a href="/portfolio">Portfolio</a></li>
             <li><a href="/contact">Contact me</a></li>
           </ul>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const portfolioData = [
   { name: "Todo List App", category: " Command: npx k9_todo_list", imageSrc: "/todo.jpg" },
-  { name: "Number Guessing", category: "Command: npx k9_cli_number_guessing_game", imageSrc: "/number_guessing_game.jpg " },
+  { name: "Number Guessing", category: "Command: npx k9_cli_number_guessing_game", imageSrc: "/number_guessing_game.jpg" },
   { name: "Currency Converter", category: "Command: npx k9_cli_currency_conveter_project", imageSrc: "/currency_converter.jpg" },
   { name: "Calculator", category: "Command: npx k6_simple_cli_calculator", imageSrc: "/calculator.jpg" },
   { name: "ATM", category: "Command: npx k6_cli_atm_project", imageSrc: "/atm.jpg" },
