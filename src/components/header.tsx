@@ -10,7 +10,7 @@ function Header() {
   return (
     <div>
               {/* Header */}
-      <header className="bg-black p-6 text-white  flex justify-between items-center px-10 ">
+      <header className="bg-black p-6 text-white  flex justify-between items-center px-10 xs:px-6">
         <div className="text-2xl font-bold text-orange-500">Komal Abbasi</div>
         <nav className="hidden md:block" >
           <ul className="flex space-x-6">

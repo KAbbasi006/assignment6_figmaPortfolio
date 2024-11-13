@@ -21,7 +21,7 @@ const Hero: React.FC<HeroProps> = ({ experiences, projects, clients }) => {
         <div className='flex flex-col justify-center items-center lg:items-start' ><br /><br />
           <p className='text-white'>Hi! I am</p>
           <h1 className='text-3xl font-semibold text-white'>Komal Abbasi</h1>
-          <h2 className='text-orange-500 text-5xl font-bold'>Web Developer</h2>
+          <h2 className='text-orange-500 text-5xl font-bold xs:text-4xl '>Web Developer</h2>
         </div><br />
         {/* Social Media Icons */}
         <div className='flex space-x-4 my-6'>

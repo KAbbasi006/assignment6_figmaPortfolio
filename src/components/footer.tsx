@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 lg:px-8 text-center">
         <h2 className="text-xl font-bold mb-4 text-orange-500">Komal Abbasi</h2>
         
-        <ul className="flex justify-center space-x-8 mb-6">
+        <ul className="flex justify-center space-x-8 mb-6 xs:mx-5 xs:space-x-4">
           <li><a href="/">Home</a></li>
           <li><a href="/skills">Skills</a></li>
           <li><a href="/about">About me</a></li>
