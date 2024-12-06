@@ -10,10 +10,10 @@ const portfolioData = [
   // Add more projects as needed
 ];
 const portfolioData2 = [
-  { name: "Modern Furnishings", category: "https://assignment7-modern-furnishings-f7g51b42q-komal-abbasis-projects.vercel.app", imageSrc: "/modernFurnishings.png" },
+  { name: "Modern Furnishings", category: "https://modern-furnishing-custom-css.vercel.app/", imageSrc: "/modernFurnishings.png" },
   { name: "World Plate Restaurant", category: "https://world-plate-restaurant.netlify.app/", imageSrc: "/worldPlate.png" },
-  { name: "Mini Portfolio Website", category: "https://assignment5-portfolio-website-odq36tdk8-komal-abbasis-projects.vercel.app", imageSrc: "/portfolio.png" },
-  { name: "Resume Builder App", category: "https://milestone4and5-editable-resume-3u7bzky91-komal-abbasis-projects.vercel.app", imageSrc: "/CV.png" }
+  { name: "Mini Portfolio Website", category: "https://assignment5-portfolio-website.vercel.app/", imageSrc: "/portfolio.png" },
+  { name: "Resume Builder App", category: "https://milestone4and5-editable-resume.vercel.app/", imageSrc: "/CV.png" }
 ]
 const PortfolioSection = () => {
   return (
